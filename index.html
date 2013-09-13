@@ -20,10 +20,6 @@ h1 {
 	font-weight: normal;
 }
 
-#control {
-  float: left;
-  }
-
 svg.togglevis > g.data {
   visibility: hidden;
 }
@@ -98,13 +94,13 @@ g.axis > g.tick > text, svg > text {
 ul#control {
 	list-style: none;
 	padding: 0 0 0 1005px;
+	max-width: 700px;
 	margin: -20px 0 0;
   }
 
 ul#control > li {
-	display: inline-block;
-	vertical-align: top;
-	width: 200px;
+	float:left;
+	width: 185px;
 	padding: 3px 5px 3px 6px;
 	border-left: #00579C 6px solid;
 	background: rgba(84, 129, 170, .2);
